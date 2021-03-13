@@ -1,0 +1,32 @@
+body{
+margin: 0;
+padding 0;
+}
+div{/*область 100 на 200 пикселей красит в красный цвет*/
+height: 100px;width: 200px;background-color: red;margin: 10px 10px 10px 10px; 
+}
+div h1{/*Меняет цвет текста на зелёный*/
+color: green;
+}
+b p{/*Меняет цвет текста на красный*/
+color: red;
+}
+b h1{/*Меняет цвет текста на синий*/
+color: blue;
+}
+article p:first-child{/*Увеличивает разме первого абзаца*/
+font-size: 200%;
+}
+a:hover{/*Меняет цвет текста при наведении на него курсора*/
+color:green;
+}
+h2::selection{/*Меняет цвет текста и фон при выделении*/
+color:green;
+background-color:blue;
+}
+b::before{/*Добавляет перед контентом тега p ковычку*/
+content:"'"
+}
+b::after{/*Добавляет после контентом тега p ковычку*/
+content:"'"
+}
